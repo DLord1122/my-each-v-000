@@ -1,7 +1,6 @@
-def my_each(words)
-  my_each(words) do |word|
-    puts word
+tas = ['arel', 'jon', 'logan', 'spencer']
+def my_each(tas)
+  my_each(tas) do |ta|
+    times_called += 1
   end
-  # put argument(s) here
-  # code here
 end
